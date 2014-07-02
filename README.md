@@ -1,15 +1,15 @@
-##Parse.com Twitter Util for Node.js.
+##Parse.com Twitter Util for javascript/node.js.
 
-A utility function to easily log into parse.com through Twitter.
+A utility function for javascript to easily log into parse.com through Twitter.
 
-Parse.com has a Facebook utility function to log into Parse, but not Twitter.
+Parse.com has a javascript Facebook utility function to log into Parse, but not Twitter.
 This is a short, small utility function that follows similar conventions.
 
 ##Usage
 
 Example use case: using express, express-session and request. 
 
-'''
+```
 var express = require('express');
 var session = require('express-session')
 var parse = require('parse').Parse;
@@ -43,7 +43,7 @@ app.get('/', function(req, res) {
     });
   }
 });
-'''
+```
 
 ##Conventions
 
